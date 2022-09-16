@@ -1,0 +1,218 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dra_project"
+4    android:versionCode="2"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:3:5-65
+11-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:3:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:7:5-66
+15-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:7:22-63
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:8:5-80
+16-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:43:5-81
+17-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:43:22-78
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->[:geolocator_android] /home/zaigo/Downloads/DRA-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+18-->[:geolocator_android] /home/zaigo/Downloads/DRA-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->[:camera_android] /home/zaigo/Downloads/DRA-main/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-71
+19-->[:camera_android] /home/zaigo/Downloads/DRA-main/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-68
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->[:location] /home/zaigo/Downloads/DRA-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+20-->[:location] /home/zaigo/Downloads/DRA-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+21
+22    <application
+23        android:name="android.app.Application"
+23-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:13:9-42
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.8.0] /home/zaigo/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:15:9-43
+26        android:label="DRA"
+26-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:12:9-28
+27        android:usesCleartextTraffic="true" >
+27-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:14:9-44
+28        <activity
+28-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:16:9-36:20
+29            android:name="com.example.dra_project.MainActivity"
+29-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:17:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:21:13-163
+31            android:exported="true"
+31-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:18:13-36
+32            android:hardwareAccelerated="true"
+32-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:22:13-47
+33            android:launchMode="singleTop"
+33-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:19:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:20:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:23:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:28:13-31:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:29:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:30:15-52
+46
+47            <intent-filter>
+47-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:32:13-35:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:33:17-68
+48-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:34:17-76
+50-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:34:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:39:9-41:33
+58            android:name="flutterEmbedding"
+58-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:40:13-44
+59            android:value="2" />
+59-->/home/zaigo/Downloads/DRA-main/android/app/src/main/AndroidManifest.xml:41:13-30
+60
+61        <service
+61-->[:geolocator_android] /home/zaigo/Downloads/DRA-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+62            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+62-->[:geolocator_android] /home/zaigo/Downloads/DRA-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+63            android:enabled="true"
+63-->[:geolocator_android] /home/zaigo/Downloads/DRA-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+64            android:exported="false"
+64-->[:geolocator_android] /home/zaigo/Downloads/DRA-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+65            android:foregroundServiceType="location" />
+65-->[:geolocator_android] /home/zaigo/Downloads/DRA-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+66
+67        <provider
+67-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+68            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+68-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+69            android:authorities="com.example.dra_project.flutter.image_provider"
+69-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+70            android:exported="false"
+70-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+71            android:grantUriPermissions="true" >
+71-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+72            <meta-data
+72-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+74                android:resource="@xml/flutter_image_picker_file_paths" />
+74-->[:image_picker_android] /home/zaigo/Downloads/DRA-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+75        </provider>
+76
+77        <receiver
+77-->[:sms_otp_auto_verify] /home/zaigo/Downloads/DRA-main/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-17:20
+78            android:name="com.oohyugi.sms_otp_auto_verify.SmsBroadcastReceiver"
+78-->[:sms_otp_auto_verify] /home/zaigo/Downloads/DRA-main/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-80
+79            android:exported="true"
+79-->[:sms_otp_auto_verify] /home/zaigo/Downloads/DRA-main/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-36
+80            android:permission="com.google.android.gms.auth.api.phone.permission.SEND" >
+80-->[:sms_otp_auto_verify] /home/zaigo/Downloads/DRA-main/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-87
+81            <intent-filter>
+81-->[:sms_otp_auto_verify] /home/zaigo/Downloads/DRA-main/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-16:29
+82                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+82-->[:sms_otp_auto_verify] /home/zaigo/Downloads/DRA-main/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-94
+82-->[:sms_otp_auto_verify] /home/zaigo/Downloads/DRA-main/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:15:25-91
+83            </intent-filter>
+84        </receiver>
+85
+86        <service
+86-->[:location] /home/zaigo/Downloads/DRA-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-17:56
+87            android:name="com.lyokone.location.FlutterLocationService"
+87-->[:location] /home/zaigo/Downloads/DRA-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-71
+88            android:enabled="true"
+88-->[:location] /home/zaigo/Downloads/DRA-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-35
+89            android:exported="false"
+89-->[:location] /home/zaigo/Downloads/DRA-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+90            android:foregroundServiceType="location" />
+90-->[:location] /home/zaigo/Downloads/DRA-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-53
+91
+92        <uses-library
+92-->[androidx.window:window:1.0.0-beta04] /home/zaigo/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+93            android:name="androidx.window.extensions"
+93-->[androidx.window:window:1.0.0-beta04] /home/zaigo/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+94            android:required="false" />
+94-->[androidx.window:window:1.0.0-beta04] /home/zaigo/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+95        <uses-library
+95-->[androidx.window:window:1.0.0-beta04] /home/zaigo/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+96            android:name="androidx.window.sidecar"
+96-->[androidx.window:window:1.0.0-beta04] /home/zaigo/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0-beta04] /home/zaigo/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+98
+99        <activity
+99-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+100            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+100-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+101            android:excludeFromRecents="true"
+101-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+104        <!--
+105            Service handling Google Sign-In user revocation. For apps that do not integrate with
+106            Google Sign-In, this service will never be started.
+107        -->
+108        <service
+108-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+109            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+109-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+110            android:exported="true"
+110-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+111            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+111-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+112            android:visibleToInstantApps="true" />
+112-->[com.google.android.gms:play-services-auth:20.0.1] /home/zaigo/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:18.0.1] /home/zaigo/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:18.0.1] /home/zaigo/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:18.0.1] /home/zaigo/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:18.0.1] /home/zaigo/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:18.0.0] /home/zaigo/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:18.0.0] /home/zaigo/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:18.0.0] /home/zaigo/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+122    </application>
+123
+124</manifest>
